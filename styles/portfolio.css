@@ -1,6 +1,8 @@
 nav {
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   margin:  0 200px;
 }
 
 body {
@@ -26,10 +28,20 @@ nav a {
    text-decoration: none;
 }
 
-.btn {
+.btn-primary {
    background-color: orange;
    border: 0cap;
   color: white;
-  padding: 5px 5px;
+ padding: 15px;
 }
-
+.h{
+   background-color: mistyrose;
+}
+.bann {
+   padding: 30px 30px 1px 150px;
+   display: flex;
+   align-items: center;
+}
+.bann .profil{
+   width: 200px;
+}
