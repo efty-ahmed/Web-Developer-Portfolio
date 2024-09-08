@@ -1,0 +1,35 @@
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+body {
+   font-family: "Protest Guerrilla", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.ko {
+   color: chocolate;
+}
+
+nav > ul {
+   display: flex;
+}
+
+nav li {
+   list-style: none;
+   padding-right: 50px;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+.btn {
+   background-color: orange;
+   border: 0cap;
+  color: white;
+  padding: 5px 5px;
+}
+
