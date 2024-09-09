@@ -2,7 +2,7 @@ nav {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin:  0 200px;
+   margin: 0 200px;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
    color: chocolate;
 }
 
-nav > ul {
+nav>ul {
    display: flex;
 }
 
@@ -31,52 +31,71 @@ nav a {
 .btn-primary {
    background-color: orange;
    border: 0cap;
-  color: white;
- padding: 15px;
+   color: white;
+   padding: 15px;
 }
-.h{
+
+.h {
    background-color: mistyrose;
    background-image: url('../images/header_bg.png');
-   background-repeat:  no-repeat;
+   background-repeat: no-repeat;
    background-position: bottom right;
-   }
+}
+
 .bann {
    padding: 30px 30px 1px 150px;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
-.bann .profil{
+
+.bann .profil {
    width: 400px;
 
 }
-.ban1{
+
+.ban1 {
    font-size: 45px;
    color: brown;
    margin-bottom: 0;
-} 
-.ban2{
-   font-size:85px ;
+}
+
+.ban2 {
+   font-size: 85px;
    font-weight: 700px;
-   margin-top: 5px; 
+   margin-top: 5px;
    margin-bottom: 10px;
 }
-.ban3{
+
+.ban3 {
    margin-top: 3px;
 }
-.about{
+
+.about {
    padding: 130px;
-   background-color: #6d81359c;
-   margin:130px ;
+   background-color: #e9b98d9c;
+   margin: 130px;
 }
-.section-title{
+
+.section-title {
    text-align: center;
    font-size: 40px;
    font-weight: 700;
 }
-.section-discription{
+
+.section-discription {
    text-align: center;
    font-size: 14px;
    font-weight: 500;
-   
+}
+main{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.about-info-container{
+   display: flex;
+   justify-content: space-between;
+}
+.about-info{
+   text-align: center;
 }
