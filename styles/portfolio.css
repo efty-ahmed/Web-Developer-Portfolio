@@ -151,3 +151,7 @@ footer{
 margin-bottom: 20px;
 border-radius: 30px;
 }
+.social-link  a {
+  margin-right: 30px; 
+  /* padding:  50px; */
+}
