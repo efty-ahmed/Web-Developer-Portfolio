@@ -99,3 +99,18 @@ main{
 .about-info{
    text-align: center;
 }
+#what-i-do-dis{
+   padding: 30px 150px;
+}
+.skill-container{
+ display: flex;
+     gap: 20px;
+}
+.skill{
+   padding: 30px;
+   
+  
+}
+.skill-discription{
+   
+}
